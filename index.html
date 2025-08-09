@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Redesigned</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">New & Popular</a></li>
+                    <li><a href="#">My List</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="profile">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile">
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Stranger Things</h1>
+            <div class="hero-meta">
+                <span class="match">98% Match</span>
+                <span class="year">2023</span>
+                <span class="age-rating">TV-MA</span>
+                <span class="seasons">4 Seasons</span>
+            </div>
+            <p class="hero-description">When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.</p>
+            <div class="hero-buttons">
+                <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                <button class="info-btn"><i class="fas fa-info-circle"></i> More Info</button>
+            </div>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+    <main class="content">
+        <section class="content-row">
+            <h2 class="row-title">Popular on Netflix</h2>
+            <div class="content-cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x169?text=The+Witcher" alt="The Witcher">
+                    <div class="card-hover">
+                        <div class="card-buttons">
+                            <button><i class="fas fa-play"></i></button>
+                            <button><i class="fas fa-plus"></i></button>
+                            <button><i class="fas fa-thumbs-up"></i></button>
+                            <button><i class="fas fa-thumbs-down"></i></button>
+                        </div>
+                        <div class="card-info">
+                            <span class="match">95% Match</span>
+                            <span class="age-rating">TV-MA</span>
+                            <span class="seasons">2 Seasons</span>
+                        </div>
+                        <div class="card-genres">
+                            <span>Action</span>
+                            <span>Fantasy</span>
+                            <span>Adventure</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- More cards would go here -->
+            </div>
+        </section>
+
+        <section class="content-row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="content-cards">
+                <div class="card">
+                    <img src="https://www.google.com/recaptcha/enterprise.js?render=6LdqW_EqAAAAAO87Fb_kcZfNzs0IqJRcKiJDYpUv" alt="Ozark">
+                </div>
+                <!-- More cards would go here -->
+            </div>
+        </section>
+
+        <section class="content-row">
+            <h2 class="row-title">Continue Watching</h2>
+            <div class="content-cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x169?text=Breaking+Bad" alt="Breaking Bad">
+                    <div class="progress-bar" style="width: 65%"></div>
+                </div>
+                <!-- More cards would go here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Audio Description</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Legal Notices</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Netflix Clone (Redesign Exercise)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
